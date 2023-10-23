@@ -7,5 +7,6 @@ elif len(name) > 50:
 else:
     print("Name looks good!")
 print(len(name)) # I added the len function here to visualize what it does
+
 # My error here is that in the first try i didn't use the len function at first which results to an error.
 # I forgot that the name string cannot be compared to an integer, so I need to use len in order to compare these two.
